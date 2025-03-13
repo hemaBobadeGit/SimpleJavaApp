@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\MyFolder\JavaCloud\TestMavenProject"/>
 			<item value="C:\Users\hema_\OneDrive\Desktop\Project Management\Cloud\demo (2)\demo\src"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,10 +27,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Grp1.Artifact1"/>
 		</list>
 		<list key="groupId">
+			<item value="Grp1"/>
 		</list>
 		<list key="artifactId">
+			<item value="Artifact1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -61,5 +65,24 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\MyFolder\JavaCloud\EMSServer\EMSProject"/>
+			<item value="D:\MyFolder\JavaCloud\EMSProject"/>
+			<item value="D:\MyFolder\JavaCloud"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
